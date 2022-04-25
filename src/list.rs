@@ -74,13 +74,7 @@ impl Plugin for FormListPlugin {
     }
 }
 
-pub fn generate_list(
-    id: &str,
-    asset_server: &Res<AssetServer>,
-    theme: Option<Theme>,
-    commands: &mut Commands,
-    parent: &mut ChildBuilder,
-) -> Entity {
+pub fn generate_list(id: &str, theme: Option<Theme>, parent: &mut ChildBuilder) -> Entity {
     parent
         .spawn_bundle(NodeBundle {
             style: Style {
