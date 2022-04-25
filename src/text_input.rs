@@ -107,7 +107,7 @@ pub fn generate_input(
                 text: Text::with_section(
                     text,
                     TextStyle {
-                        font: asset_server.load("fonts/FiraSans-Bold.ttf"),
+                        font: asset_server.load("fonts/monogram-extended.ttf"),
                         font_size: 40.0,
                         color: Color::rgb(0.9, 0.9, 0.9),
                     },
@@ -121,7 +121,7 @@ pub fn generate_input(
                 text: Text::with_section(
                     "",
                     TextStyle {
-                        font: asset_server.load("fonts/FiraSans-Bold.ttf"),
+                        font: asset_server.load("fonts/monogram-extended.ttf"),
                         font_size: 40.0,
                         color: Color::rgb(0.9, 0.9, 0.9),
                     },
@@ -136,7 +136,7 @@ pub fn generate_input(
                 text: Text::with_section(
                     "",
                     TextStyle {
-                        font: asset_server.load("fonts/FiraSans-Bold.ttf"),
+                        font: asset_server.load("fonts/monogram-extended.ttf"),
                         font_size: 40.0,
                         color: Color::rgb(0.9, 0.9, 0.9),
                     },
@@ -150,7 +150,7 @@ pub fn generate_input(
                 text: Text::with_section(
                     placeholder.unwrap_or("".to_string()).as_str(),
                     TextStyle {
-                        font: asset_server.load("fonts/FiraSans-Bold.ttf"),
+                        font: asset_server.load("fonts/monogram-extended.ttf"),
                         font_size: 40.0,
                         color: Color::rgba(0.9, 0.9, 0.9, 0.5),
                     },
